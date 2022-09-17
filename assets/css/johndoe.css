@@ -1399,10 +1399,10 @@ pre code {
   }
   .col-lg-4 {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.33333%;
-        -ms-flex: 0 0 33.33333%;
-            flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
@@ -11503,13 +11503,13 @@ pre .code {
 }
 
 .header {
-  position: relative;
+  position:relative;
   height: 80vh;
   min-height: 600px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
